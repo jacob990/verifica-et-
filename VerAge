@@ -1,0 +1,12 @@
+x = raw_input(" ciao come ti chiami? ")
+print('benvenuto ' + x )
+anni = input(' quanti anni hai? ')
+while anni > 140  :
+    print('non ci credo ')
+    quit()
+if anni >= 18  :
+    print("sei maggiorenne")
+elif anni < 18 :
+        print("sei minorenne")
+else :
+    print('errore sconosciuto ')
